@@ -1,0 +1,30 @@
+[
+  {
+    "dispatch": "W1",
+    "tank": "T8",
+    "possible_villages": [
+      "V1"
+    ]
+  },
+  {
+    "dispatch": "W1",
+    "tank": "T9",
+    "possible_villages": [
+      "V2"
+    ]
+  },
+  {
+    "dispatch": "W2",
+    "tank": "T7",
+    "possible_villages": [
+      "V3"
+    ]
+  },
+  {
+    "dispatch": "W2",
+    "tank": "T10",
+    "possible_villages": [
+      "V3"
+    ]
+  }
+]

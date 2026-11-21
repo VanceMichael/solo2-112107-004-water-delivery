@@ -1,0 +1,18 @@
+[
+  {
+    "ticket": "16",
+    "shift": "N33",
+    "village": "V3",
+    "tank": "T7",
+    "litres": 327,
+    "time": "23:15"
+  },
+  {
+    "ticket": "19",
+    "shift": "N33",
+    "village": "V3",
+    "tank": "T10",
+    "litres": 50,
+    "time": "23:35"
+  }
+]

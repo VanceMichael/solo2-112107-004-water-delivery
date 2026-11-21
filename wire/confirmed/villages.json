@@ -1,0 +1,21 @@
+[
+  {
+    "id": "V1",
+    "pages": [
+      "village1-1"
+    ]
+  },
+  {
+    "id": "V2",
+    "pages": [
+      "village2-1",
+      "village2-2"
+    ]
+  },
+  {
+    "id": "V3",
+    "pages": [
+      "village3-1"
+    ]
+  }
+]

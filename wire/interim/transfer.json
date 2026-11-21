@@ -1,0 +1,32 @@
+[
+  {
+    "ref": "X1",
+    "dispatch": "W1",
+    "source_tank": "T8",
+    "dest_tank": "T9",
+    "litres": 550,
+    "time": "22:25",
+    "from_signed": true,
+    "to_signed": true
+  },
+  {
+    "ref": "X2",
+    "dispatch": "W2",
+    "source_tank": "T7",
+    "dest_tank": "T10",
+    "litres": 200,
+    "time": "22:30",
+    "from_signed": true,
+    "to_signed": false
+  },
+  {
+    "ref": "X3",
+    "dispatch": "W1",
+    "source_tank": "T9",
+    "dest_tank": "T8",
+    "litres": 25,
+    "time": "22:40",
+    "from_signed": true,
+    "to_signed": true
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "releases": {
+    "opening": {
+      "targets": {
+        "name": "opening/targets.json",
+        "type": "application/json"
+      },
+      "plant-index": {
+        "name": "opening/plant-index.json",
+        "type": "application/json"
+      },
+      "dispatch-1": {
+        "name": "opening/dispatch-1.json",
+        "type": "application/json"
+      },
+      "dispatch-2": {
+        "name": "opening/dispatch-2.json",
+        "type": "application/json"
+      },
+      "transfer": {
+        "name": "opening/transfer.json",
+        "type": "application/json"
+      },
+      "villages": {
+        "name": "opening/villages.json",
+        "type": "application/json"
+      },
+      "village1-1": {
+        "name": "opening/village1-1.json",
+        "type": "application/json"
+      },
+      "village2-1": {
+        "name": "opening/village2-1.json",
+        "type": "application/json"
+      },
+      "village2-2": {
+        "name": "opening/village2-2.json",
+        "type": "application/json"
+      },
+      "village3-1": {
+        "name": "opening/village3-1.json",
+        "type": "application/json"
+      },
+      "orders": {
+        "name": "opening/orders.json",
+        "type": "application/json"
+      },
+      "routes": {
+        "name": "opening/routes.json",
+        "type": "application/json"
+      }
+    },
+    "interim": {
+      "targets": {
+        "name": "interim/targets.json",
+        "type": "application/json"
+      },
+      "plant-index": {
+        "name": "interim/plant-index.json",
+        "type": "application/json"
+      },
+      "dispatch-1": {
+        "name": "interim/dispatch-1.json",
+        "type": "application/json"
+      },
+      "dispatch-2": {
+        "name": "interim/dispatch-2.json",
+        "type": "application/json"
+      },
+      "transfer": {
+        "name": "interim/transfer.json",
+        "type": "application/json"
+      },
+      "villages": {
+        "name": "interim/villages.json",
+        "type": "application/json"
+      },
+      "village1-1": {
+        "name": "interim/village1-1.json",
+        "type": "application/json"
+      },
+      "village2-1": {
+        "name": "interim/village2-1.json",
+        "type": "application/json"
+      },
+      "village2-2": {
+        "status": 503
+      },
+      "village3-1": {
+        "name": "interim/village3-1.json",
+        "type": "application/json"
+      },
+      "orders": {
+        "name": "interim/orders.json",
+        "type": "application/json"
+      },
+      "routes": {
+        "name": "interim/routes.json",
+        "type": "application/json"
+      }
+    },
+    "confirmed": {
+      "targets": {
+        "name": "confirmed/targets.json",
+        "type": "application/json"
+      },
+      "plant-index": {
+        "name": "confirmed/plant-index.json",
+        "type": "application/json"
+      },
+      "dispatch-1": {
+        "name": "confirmed/dispatch-1.json",
+        "type": "application/json"
+      },
+      "dispatch-2": {
+        "name": "confirmed/dispatch-2.json",
+        "type": "application/json"
+      },
+      "transfer": {
+        "name": "confirmed/transfer.json",
+        "type": "application/json"
+      },
+      "villages": {
+        "name": "confirmed/villages.json",
+        "type": "application/json"
+      },
+      "village1-1": {
+        "name": "confirmed/village1-1.json",
+        "type": "application/json"
+      },
+      "village2-1": {
+        "name": "confirmed/village2-1.json",
+        "type": "application/json"
+      },
+      "village2-2": {
+        "name": "confirmed/village2-2.json",
+        "type": "application/json"
+      },
+      "village3-1": {
+        "name": "confirmed/village3-1.json",
+        "type": "application/json"
+      },
+      "orders": {
+        "name": "confirmed/orders.json",
+        "type": "application/json"
+      },
+      "routes": {
+        "name": "confirmed/routes.json",
+        "type": "application/json"
+      }
+    }
+  },
+  "actions": {
+    "request": {
+      "order": "D40",
+      "result": "accepted"
+    },
+    "reassign": {
+      "order": "D31",
+      "result": "accepted"
+    },
+    "inspect": {
+      "order": "D31",
+      "result": "confirmed"
+    }
+  },
+  "known": {
+    "opening": {},
+    "interim": {},
+    "confirmed": {}
+  },
+  "statusField": "result",
+  "inspectStates": {
+    "request": "accepted",
+    "reassign": "accepted"
+  },
+  "lateAction": null
+}
