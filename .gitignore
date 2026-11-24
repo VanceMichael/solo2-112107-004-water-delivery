@@ -10,3 +10,7 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Local reconciliation state
+.water-state.json
+.water-state.tmp-*

@@ -1,0 +1,796 @@
+{
+  "version": 1,
+  "baseUrl": "http://127.0.0.1:4173",
+  "createdAt": "2026-11-24T22:59:19.660Z",
+  "updatedAt": "2026-11-24T22:59:43.839Z",
+  "shifts": {
+    "N33": {
+      "shift": "N33",
+      "resources": {
+        "targets": {
+          "resource": "targets",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.694Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.709Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.716Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.694Z",
+              "data": [
+                {
+                  "shift": "N33",
+                  "village": "V1",
+                  "litres": 750
+                },
+                {
+                  "shift": "N33",
+                  "village": "V2",
+                  "litres": 750
+                },
+                {
+                  "shift": "N33",
+                  "village": "V3",
+                  "litres": 400
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.716Z"
+            }
+          ]
+        },
+        "plant-index": {
+          "resource": "plant-index",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.699Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.710Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.716Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.699Z",
+              "data": {
+                "shift": "N33",
+                "pages": [
+                  "dispatch-1",
+                  "dispatch-2"
+                ],
+                "closedAt": "05:00"
+              },
+              "lastConfirmedAt": "2026-11-24T22:59:19.716Z"
+            }
+          ]
+        },
+        "villages": {
+          "resource": "villages",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.700Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.710Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.717Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.700Z",
+              "data": [
+                {
+                  "id": "V1",
+                  "pages": [
+                    "village1-1"
+                  ]
+                },
+                {
+                  "id": "V2",
+                  "pages": [
+                    "village2-1",
+                    "village2-2"
+                  ]
+                },
+                {
+                  "id": "V3",
+                  "pages": [
+                    "village3-1"
+                  ]
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.717Z"
+            }
+          ]
+        },
+        "transfer": {
+          "resource": "transfer",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.700Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.711Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.717Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.700Z",
+              "data": [
+                {
+                  "ref": "X1",
+                  "dispatch": "W1",
+                  "source_tank": "T8",
+                  "dest_tank": "T9",
+                  "litres": 550,
+                  "time": "22:25",
+                  "from_signed": true,
+                  "to_signed": true
+                },
+                {
+                  "ref": "X2",
+                  "dispatch": "W2",
+                  "source_tank": "T7",
+                  "dest_tank": "T10",
+                  "litres": 200,
+                  "time": "22:30",
+                  "from_signed": true,
+                  "to_signed": false
+                }
+              ]
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.711Z",
+              "data": [
+                {
+                  "ref": "X1",
+                  "dispatch": "W1",
+                  "source_tank": "T8",
+                  "dest_tank": "T9",
+                  "litres": 550,
+                  "time": "22:25",
+                  "from_signed": true,
+                  "to_signed": true
+                },
+                {
+                  "ref": "X2",
+                  "dispatch": "W2",
+                  "source_tank": "T7",
+                  "dest_tank": "T10",
+                  "litres": 200,
+                  "time": "22:30",
+                  "from_signed": true,
+                  "to_signed": false
+                },
+                {
+                  "ref": "X3",
+                  "dispatch": "W1",
+                  "source_tank": "T9",
+                  "dest_tank": "T8",
+                  "litres": 25,
+                  "time": "22:40",
+                  "from_signed": true,
+                  "to_signed": true
+                }
+              ]
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.717Z",
+              "data": [
+                {
+                  "ref": "X1",
+                  "dispatch": "W1",
+                  "source_tank": "T8",
+                  "dest_tank": "T9",
+                  "litres": 550,
+                  "time": "22:25",
+                  "from_signed": true,
+                  "to_signed": true
+                },
+                {
+                  "ref": "X2",
+                  "dispatch": "W2",
+                  "source_tank": "T7",
+                  "dest_tank": "T10",
+                  "litres": 200,
+                  "time": "22:30",
+                  "from_signed": true,
+                  "to_signed": false
+                }
+              ]
+            }
+          ]
+        },
+        "orders": {
+          "resource": "orders",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.701Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.711Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.717Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.701Z",
+              "data": [
+                {
+                  "order": "D31",
+                  "village": "V2",
+                  "litres": 350,
+                  "status": "accepted"
+                },
+                {
+                  "order": "D32",
+                  "village": "V1",
+                  "litres": 250,
+                  "status": "departed"
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.717Z"
+            }
+          ]
+        },
+        "routes": {
+          "resource": "routes",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.702Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.711Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.718Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.702Z",
+              "data": [
+                {
+                  "dispatch": "W1",
+                  "tank": "T8",
+                  "possible_villages": [
+                    "V1"
+                  ]
+                },
+                {
+                  "dispatch": "W1",
+                  "tank": "T9",
+                  "possible_villages": [
+                    "V2"
+                  ]
+                },
+                {
+                  "dispatch": "W2",
+                  "tank": "T7",
+                  "possible_villages": [
+                    "V3"
+                  ]
+                },
+                {
+                  "dispatch": "W2",
+                  "tank": "T10",
+                  "possible_villages": [
+                    "V3"
+                  ]
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.718Z"
+            }
+          ]
+        },
+        "dispatch-1": {
+          "resource": "dispatch-1",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.703Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.713Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.718Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.703Z",
+              "data": [
+                {
+                  "dispatch": "W1",
+                  "tank": "T8",
+                  "litres": 1200,
+                  "time": "21:00",
+                  "capacity": 1400
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.718Z"
+            }
+          ]
+        },
+        "dispatch-2": {
+          "resource": "dispatch-2",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.704Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.713Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.719Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.704Z",
+              "data": [
+                {
+                  "dispatch": "W2",
+                  "tank": "T7",
+                  "litres": 500,
+                  "time": "21:10",
+                  "capacity": 700
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.719Z"
+            }
+          ]
+        },
+        "village1-1": {
+          "resource": "village1-1",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.706Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.714Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.719Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.706Z",
+              "data": [
+                {
+                  "ticket": "17",
+                  "shift": "N33",
+                  "village": "V1",
+                  "tank": "T8",
+                  "litres": 500,
+                  "time": "22:10"
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.714Z"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.719Z",
+              "data": [
+                {
+                  "ticket": "17",
+                  "shift": "N33",
+                  "village": "V1",
+                  "tank": "T8",
+                  "litres": 500,
+                  "time": "22:10"
+                },
+                {
+                  "ticket": "22",
+                  "shift": "N33",
+                  "village": "V1",
+                  "tank": "T8",
+                  "litres": 100,
+                  "time": "23:10"
+                }
+              ]
+            }
+          ]
+        },
+        "village2-1": {
+          "resource": "village2-1",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.707Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.714Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.720Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.707Z",
+              "data": [
+                {
+                  "ticket": "17",
+                  "shift": "N33",
+                  "village": "V2",
+                  "tank": "T9",
+                  "litres": 400,
+                  "time": "22:45"
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.720Z"
+            }
+          ]
+        },
+        "village2-2": {
+          "resource": "village2-2",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.708Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.715Z",
+              "status": 503,
+              "ok": false,
+              "problem": "unavailable",
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.721Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.708Z",
+              "data": [
+                {
+                  "ticket": "21",
+                  "shift": "N33",
+                  "village": "V2",
+                  "tank": "T9",
+                  "litres": 130,
+                  "time": "23:05"
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.721Z"
+            }
+          ]
+        },
+        "village3-1": {
+          "resource": "village3-1",
+          "checks": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.708Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "opening"
+            },
+            {
+              "phase": "interim",
+              "at": "2026-11-24T22:59:19.715Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "interim"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.721Z",
+              "status": 200,
+              "ok": true,
+              "problem": null,
+              "xRelease": "confirmed"
+            }
+          ],
+          "versions": [
+            {
+              "phase": "opening",
+              "at": "2026-11-24T22:59:19.708Z",
+              "data": [
+                {
+                  "ticket": "16",
+                  "shift": "N33",
+                  "village": "V3",
+                  "tank": "T7",
+                  "litres": 330,
+                  "time": "23:15"
+                }
+              ],
+              "lastConfirmedAt": "2026-11-24T22:59:19.715Z"
+            },
+            {
+              "phase": "confirmed",
+              "at": "2026-11-24T22:59:19.721Z",
+              "data": [
+                {
+                  "ticket": "16",
+                  "shift": "N33",
+                  "village": "V3",
+                  "tank": "T7",
+                  "litres": 327,
+                  "time": "23:15"
+                },
+                {
+                  "ticket": "19",
+                  "shift": "N33",
+                  "village": "V3",
+                  "tank": "T10",
+                  "litres": 50,
+                  "time": "23:35"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "portalRequests": {
+        "N33-V3-SHORT-001": {
+          "key": "N33-V3-SHORT-001",
+          "action": "request",
+          "phase": "confirmed",
+          "requestPayload": {
+            "action": "request",
+            "key": "N33-V3-SHORT-001",
+            "facts": {
+              "village": "V3",
+              "litres": 23,
+              "reason": "known_uncovered_after_pending_evidence"
+            }
+          },
+          "requestedL": 23,
+          "createdAt": "2026-11-24T22:59:24.526Z",
+          "receipts": [
+            {
+              "at": "2026-11-24T22:59:24.526Z",
+              "phase": "confirmed",
+              "status": 201,
+              "body": {
+                "key": "N33-V3-SHORT-001",
+                "order": "D40",
+                "result": "accepted",
+                "sourceRef": "confirmed-3"
+              }
+            },
+            {
+              "at": "2026-11-24T22:59:40.385Z",
+              "phase": "confirmed",
+              "status": 200,
+              "body": {
+                "key": "N33-V3-SHORT-001",
+                "order": "D40",
+                "result": "accepted",
+                "sourceRef": "confirmed-3"
+              }
+            },
+            {
+              "at": "2026-11-24T22:59:43.838Z",
+              "phase": "confirmed",
+              "status": 200,
+              "body": {
+                "key": "N33-V3-SHORT-001",
+                "order": "D40",
+                "result": "accepted",
+                "sourceRef": "confirmed-3"
+              }
+            }
+          ],
+          "effectsApplied": true,
+          "lastAt": "2026-11-24T22:59:43.838Z",
+          "lastHttpStatus": 200,
+          "orderRef": "D40",
+          "sourceRef": "confirmed-3",
+          "result": "accepted",
+          "status": "accepted",
+          "acceptedL": 23,
+          "inspections": [
+            {
+              "at": "2026-11-24T22:59:43.838Z",
+              "phase": "confirmed",
+              "status": 200,
+              "body": {
+                "key": "N33-V3-SHORT-001",
+                "order": "D40",
+                "result": "accepted",
+                "sourceRef": "confirmed-3"
+              }
+            }
+          ]
+        }
+      },
+      "orderEvents": [],
+      "dutyAlerts": []
+    }
+  }
+}
